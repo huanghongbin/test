@@ -1,0 +1,21 @@
+{
+    "name": "test/hello",
+    "description": "try make a package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "huanghongbin",
+            "email": "24hour@sina.cn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ceshi\\Test\\": "src/Ceshi/Test"
+        }
+    }
+}
